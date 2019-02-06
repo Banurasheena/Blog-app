@@ -1,5 +1,5 @@
 flask==1.0.2
- gunicorn
+gunicorn
  Flask-Bcrypt
 Flask-Login
 Flask-Mail
