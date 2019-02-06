@@ -1,0 +1,8 @@
+flask==1.0.2
+ gunicorn
+ Flask-Bcrypt
+Flask-Login
+Flask-Mail
+Flask-SQLAlchemy==2.3.2
+Flask-WTF==0.14.2
+Pillow
