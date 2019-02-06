@@ -1,1 +1,1 @@
-web gunicon  run:app
+web  gunicon  run:app
