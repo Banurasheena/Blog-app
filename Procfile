@@ -1,1 +1,1 @@
-web  gunicon  run:app
+web: gunicorn trial:app
