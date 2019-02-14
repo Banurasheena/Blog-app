@@ -10,6 +10,14 @@
             </div>
             <h2><a class="article-title" href="{{ url_for('posts.post', post_id=post.id) }}">{{ post.title }}</a></h2>
             <p class="article-content">{{ post.content }}</p>
+
+            {% for comment in comments.items %}
+            <small class="text-muted">{{ comment.comment }}</small>
+            {% endfor %}
+            
+
+            <a class="btn btn-info mb-4" href="{{ url_for('posts.comment') }}">Comment</a>
+         
           </div>
         </article>
     {% endfor %}
@@ -17,8 +25,10 @@
       {% if page_num %}
         {% if posts.page == page_num %}
           <a class="btn btn-info mb-4" href="{{ url_for('main.home', page=page_num) }}">{{ page_num }}</a>
-        {% else %}
+         
+        {% else %} 
           <a class="btn btn-outline-info mb-4" href="{{ url_for('main.home', page=page_num) }}">{{ page_num }}</a>
+          
         {% endif %}
       {% else %}
         ...
