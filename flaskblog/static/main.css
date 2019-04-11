@@ -14,7 +14,7 @@ body {
   }
   
   .site-header .navbar-nav .nav-link {
-    color: #cbd5db;
+    color:crimson;
   }
   
   .site-header .navbar-nav .nav-link:hover {
@@ -25,13 +25,14 @@ body {
     font-weight: 500;
   }
   
-  .content-section {
-    background: #ffffff;
+  /* .content-section {
+    background: #8b4b4b;
+    opacity: 20px;
     padding: 10px 20px;
     border: 1px solid #dddddd;
-    border-radius: 3px;
+    border-radius: 100px;
     margin-bottom: 20px;
-  }
+  } */
   
   .article-title {
     color: #444444;
@@ -78,4 +79,16 @@ body {
   
   .account-heading {
     font-size: 2.5rem;
+  }
+
+  .nav-brand mr-4{
+    font-size: 100px;
+  }
+
+  .lego{
+    text-align: center;
+  }
+
+  .group{
+    margin-left: 150px;
   }

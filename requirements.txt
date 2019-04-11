@@ -1,6 +1,6 @@
 flask==1.0.2
 gunicorn
- Flask-Bcrypt
+Flask-Bcrypt
 Flask-Login
 Flask-Mail
 Flask-SQLAlchemy==2.3.2
